@@ -1,1 +1,72 @@
 /* Main style sheet */
+body {
+  padding: 1.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 1.25rem 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  padding: 1rem 5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.scores-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-list li {
+  padding: 0.8rem 0.8rem;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 60%;
+}
+
+.form-group {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+form button[type='submit'] {
+  margin-top: 1rem;
+  float: right;
+}

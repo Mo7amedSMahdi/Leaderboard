@@ -9,6 +9,45 @@
 </head>
 
 <body>
+    <header>
+        <div class="header-title">
+            <h1>Leaderboard</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="scores">
+            <div class="scores-header">
+                <h2>Recent scores</h2>
+                <button type="button" class="btn-primary">Refresh</button>
+            </div>
+            <ul class="scores-list">
+                <li>
+                    <p>name: score</p>
+                </li>
+                <li>
+                    <p>name: score</p>
+                </li>
+                <li>
+                    <p>name: score</p>
+                </li>
+                <li>
+                    <p>name: score</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="add-form">
+            <h2>Add your score</h2>
+            <form action="/">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <input type="text" id="score" name="score" placeholder="Your score">
+                </div>
+                <button type="submit" class="btn-primary">submit</button>
+            </form>
+        </section>
+    </main>
 
 </body>
 
