@@ -200,7 +200,8 @@ form {
   width: 100%;
 }
 
-input[type='text'] {
+input[type='text'],
+input[type='number'] {
   padding: 0.4rem 0.8rem;
   border: 2px solid var(--clr-gold);
   background: var(--clr-navy);
