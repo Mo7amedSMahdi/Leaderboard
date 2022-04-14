@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Square+Peg&display=swap');
 
 :root {
-  --clr-header: #feefdd;
-  --clr-score-header: #50b2c0;
-  --clr-text: #201e1f;
   --clr-navy: #001f35;
   --clr-gold: #9d8d6c;
 
@@ -124,7 +121,6 @@ input[type='reset'] {
   font-size: 1rem;
   font-weight: 700;
   border: 2px solid var(--clr-navy);
-  box-shadow: 5px 6px 12px -2px var(--clr-gold);
 }
 
 header {
@@ -166,19 +162,20 @@ main {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background: var(--clr-header);
+  background: var(--clr-gold);
   color: var(--clr-navy);
   padding: 1rem 1rem;
 }
 
 .scores-list {
-  border: 4px solid var(--clr-header);
+  border: 4px solid var(--clr-gold);
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .scores-list li {
   padding: 0.8rem 0.8rem;
-  background: var(--clr-header);
+  background: var(--clr-gold);
+  color: var(--clr-navy);
   margin: 0.3rem;
 }
 
@@ -214,5 +211,4 @@ form button[type='submit'] {
   margin-top: 1rem;
   float: right;
   border: 2px solid var(--clr-gold);
-  box-shadow: 5px 6px 12px -2px var(--clr-text);
 }
