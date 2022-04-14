@@ -3,7 +3,6 @@
 :root {
   --clr-navy: #001f35;
   --clr-gold: #9d8d6c;
-
   --ff-roboto: 'Roboto Mono', monospace;
 }
 
@@ -138,10 +137,9 @@ header {
 }
 
 main {
-  padding: 1.25rem 1rem;
   display: flex;
   flex-direction: row;
-  padding: 1.25rem 0;
+  padding: 1.25rem 1rem;
   width: 100%;
   align-items: flex-start;
   justify-content: center;
