@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Square+Peg&display=swap');
 
 :root {
   --clr-header: #feefdd;
@@ -127,24 +127,27 @@ input[type='reset'] {
   box-shadow: 5px 6px 12px -2px var(--clr-gold);
 }
 
-.btn-primary {
-  padding: 0.3rem 1rem;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.header {
+header {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 1rem 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+.header-title h1 {
+  font-family: 'Square Peg', cursive;
+  font-size: 4rem;
 }
 
 main {
+  padding: 1.25rem 1rem;
   display: flex;
   flex-direction: row;
   padding: 1.25rem 0;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 1rem;
 }
