@@ -188,6 +188,8 @@ main {
   flex: 1 0 0;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 form {
@@ -201,7 +203,16 @@ form {
   width: 100%;
 }
 
+input[type='text'] {
+  padding: 0.4rem 0.8rem;
+  border: 2px solid var(--clr-gold);
+  background: var(--clr-navy);
+  color: var(--clr-gold);
+}
+
 form button[type='submit'] {
   margin-top: 1rem;
   float: right;
+  border: 2px solid var(--clr-gold);
+  box-shadow: 5px 6px 12px -2px var(--clr-text);
 }
