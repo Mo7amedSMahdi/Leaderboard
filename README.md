@@ -40,7 +40,10 @@ To get a local copy up and running follow these setup steps.
 ```sh
   npm install
 ```
-
+- then build :
+```sh
+npm run build
+```
 - In case you run into any errors please raise an [issue](https://github.com/Mo7amedSMahdi/Leaderboard/issues).
 
 **Usage**
